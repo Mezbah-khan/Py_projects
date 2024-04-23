@@ -1,4 +1,4 @@
-# hey python this is mezbah khan from backend developer # <br>
+# Hello wrold, this is mezbah khan from backend developer # <br>
 # lets create the an example of(if/ else ) statements # <br>
 # lets do it for printing marks # <br>
 
