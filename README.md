@@ -1,15 +1,15 @@
 # Hello wrold, this is mezbah khan form backend developer # 
 # We are gonna create some python projects in this Reposotiry and will push our gits value # 
-# lets started our frist projects with basic fundamentals like mark counting with (if/elif) statements #
+#lets started our frist projects with basic fundamentals like mark counting with (if/elif) statements #
 
 nam1 = str (input("Enter your name : "))
 marks = int(input('Enter your marks : '))
 
 if (marks <= 100 and marks >= 80 ):
-    print("Hey",nam1,"your grade is A+")
+ print("Hey",nam1,"your grade is A+")
 
 elif (marks < 80 and marks >= 70 ):
-    print("Hey",nam1,"your grade is A")
+print("Hey",nam1,"your grade is A")
 
 if (marks < 70 and marks >= 60 ):
     print("Hey",nam1,"your grade is B")
@@ -27,7 +27,7 @@ else :
 # This is a basic programming for mark counting and published results # 
 
                         # project no --> 2  
-# This is our secend project and we are using the def function with simpale example # 
+#This is our secend project and we are using the def function with simpale example # 
 class mezbah :
     def __init__ (self,name,age):
         self.name = name
