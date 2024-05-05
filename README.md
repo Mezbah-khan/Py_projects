@@ -57,7 +57,61 @@ if( mezbah_cxc<= 33 and mezbah_cxc>= 0):<br>
 
 elif (isitak_cxc<=33.00 and isitak_cxc>=0.0 ):<br>
     print("System is stoped in floating mode")
+
+
+# Hey developers come i show you how to create a cars properly with basic functions #
+# we are going to use the (class/def/init/staticmethods) and many more basic codes # 
+
+class cars:<br>
+    def __init__(self,start,stop,run):
+        self.start = start <br>
+        self.stop = stop
+        self.run = run<br>
+        
+    @staticmethod
+    def start_car():<br>
+        print("car started")
+        
+    @staticmethod
+    def stop_car():<br>
+        print("car stopped")
+        
+    @staticmethod
+    def run_car():<br>
+        print("car is running")
+        
+class cars_blueprint(cars):<br>
+    def __init__(self,name,model,brand):
+        self.name = name<br>
+        self.model = model
+        self.brand = brand<br>
+        
+    def name(self):
+        return self.name<br>
     
+    def model(self):
+        return self.model <br>
+    
+    def brand(self):<br>
+        return self.brand
+    <br>
+class lamborgini(cars_blueprint):
+    
+    @staticmethod
+    def cars_moduls (self):
+        print("cars moduls are 4 Milions")
+        
+car_stck = lamborgini("lamborgini",'RK15677XZ',1990)
+print(car_stck.name)<br>
+print(car_stck.model)
+print(car_stck.brand)<br>
+
+# frist lets stared the car #
+car_stck.start_car()
+car_stck.stop_car()<br>
+car_stck.run_car()<br>
+
+
     
 
     
