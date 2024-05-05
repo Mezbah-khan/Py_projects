@@ -1,6 +1,8 @@
 # Hello wrold this is mezbah khan form backend developer # 
-# In This reposotiry we are going to build our porjects with pyrhon language # 
+# In This reposotiry we are going to build our porjects with pyrhon language and data framework like tensorflow # 
 # lets get started with our first project and that's a program that will print your grade's as result marks # 
+                        project set --> 1 
+                        
 nam1 = str (input("Enter your name : "))
 marks = int(input('Enter your marks : '))
 
@@ -23,10 +25,6 @@ elif (marks < 32 and marks >= 0 ):
     print("hey",nam1,"you're failed ")   
 else :
     print("Accoding your mark-sheet")
-
-
-
-
 
 
     
