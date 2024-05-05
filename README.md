@@ -62,39 +62,39 @@ elif (isitak_cxc<=33.00 and isitak_cxc>=0.0 ):<br>
 # Hey developers come i show you how to create a cars properly with basic functions #
 # we are going to use the (class/def/init/staticmethods) and many more basic codes # 
 
-class cars:<br>
+class cars:
     def __init__(self,start,stop,run):
-        self.start = start <br>
+        self.start = start
         self.stop = stop
-        self.run = run<br>
+        self.run = run
         
     @staticmethod
-    def start_car():<br>
+    def start_car():
         print("car started")
         
     @staticmethod
-    def stop_car():<br>
+    def stop_car():
         print("car stopped")
         
     @staticmethod
-    def run_car():<br>
+    def run_car():
         print("car is running")
         
-class cars_blueprint(cars):<br>
+class cars_blueprint(cars):
     def __init__(self,name,model,brand):
-        self.name = name<br>
+        self.name = name
         self.model = model
-        self.brand = brand<br>
+        self.brand = brand
         
     def name(self):
-        return self.name<br>
+        return self.name
     
     def model(self):
-        return self.model <br>
+        return self.model
     
-    def brand(self):<br>
+    def brand(self):
         return self.brand
-    <br>
+    
 class lamborgini(cars_blueprint):
     
     @staticmethod
@@ -102,14 +102,16 @@ class lamborgini(cars_blueprint):
         print("cars moduls are 4 Milions")
         
 car_stck = lamborgini("lamborgini",'RK15677XZ',1990)
-print(car_stck.name)<br>
+print(car_stck.name)
 print(car_stck.model)
-print(car_stck.brand)<br>
+print(car_stck.brand)
 
 # frist lets stared the car #
 car_stck.start_car()
-car_stck.stop_car()<br>
-car_stck.run_car()<br>
+car_stck.stop_car()
+car_stck.run_car()
+
+
 
 
     
