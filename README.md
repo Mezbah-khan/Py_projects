@@ -59,14 +59,15 @@ elif (isitak_cxc<=33.00 and isitak_cxc>=0.0 ):<br>
     print("System is stoped in floating mode")
 
 
-# Hey developers come i show you how to create a cars properly with basic functions #
-# we are going to use the (class/def/init/staticmethods) and many more basic codes # 
-
-class cars:
-    def __init__(self,start,stop,run):
-        self.start = start
-        self.stop = stop
-        self.run = run
+# Hey developers come i show you how to create a car properly with basic function and fundamentals #
+# we are going to use the (class/def/init/staticmethods) and many more basic modules # 
+                            projects no --> 3
+                  
+class cars: <br>
+    def __init__(self,start,stop,run):   <br>
+        self.start = start  <br>
+        self.stop = stop  <br>
+        self.run = run  <br>
         
     @staticmethod
     def start_car():
@@ -80,11 +81,11 @@ class cars:
     def run_car():
         print("car is running")
         
-class cars_blueprint(cars):
-    def __init__(self,name,model,brand):
-        self.name = name
-        self.model = model
-        self.brand = brand
+class cars_blueprint(cars):  <br>
+    def __init__(self,name,model,brand):  <br>
+        self.name = name <br>
+        self.model = model  <br>
+        self.brand = brand  <br>
         
     def name(self):
         return self.name
@@ -100,17 +101,53 @@ class lamborgini(cars_blueprint):
     @staticmethod
     def cars_moduls (self):
         print("cars moduls are 4 Milions")
-        
-car_stck = lamborgini("lamborgini",'RK15677XZ',1990)
-print(car_stck.name)
-print(car_stck.model)
-print(car_stck.brand)
 
-# frist lets stared the car #
-car_stck.start_car()
-car_stck.stop_car()
-car_stck.run_car()
+  # lets open an identifiers and call then by printing  
+car_stck = lamborgini("lamborgini",'RK15677XZ',1990)  <br>
+print(car_stck.name)  <br>
+print(car_stck.model)  <br>
+print(car_stck.brand)  <br>
 
+# lets recalls those function we have create 
+car_stck.start_car()  <br>
+car_stck.stop_car()  <br>
+car_stck.run_car()  <br>
+
+The projects was amazing .. So lets move forward --> 
+# Imagine we've a school and yo're haired as a programmer 
+# You have to create a program like student data 
+# So create a program for this problem by using functions # 
+
+class Identity:<br>
+    def __init__(self, name, age, gender):<br>
+        self.name = name <br>
+        self.age = age <br>
+        self.gender = gender <br>
+
+class Info(Identity): <br>
+    def __init__(self, name, age, gender, roll, parents): <br>
+        super().__init__(name, age, gender) <br>
+        self.roll = roll <br>
+        self.parents = parents <br>
+
+class School: <br>
+    def __init__(self): <br>
+        self.students = [] <br>
+
+    def add_student(self, student):
+        self.students.append(student)
+
+    def welcome_students(self):
+        for student in self.students:
+            print("Hello Student", student.name, "Welcome to our school")
+            
+# lets print those statements and recalls those functions 
+school = School () <br>
+student1 = Info("Sara", 12, "Female", 1234567890, "Mr. and Mrs. Smith") <br>
+student2 = Info("John", 13, "Male", 1234567891, "Mr. and Mrs. Johnson") <br>
+school.add_student(student1) <br>
+school.add_student(student2) <br>
+school.welcome_students() <br>
 
 
 
