@@ -15,8 +15,8 @@ elif (marks < 80 and marks >= 70 ):<br>
 if (marks < 70 and marks >= 60 ):<br>
     print("Hey",nam1,"your grade is B")
     
-elif (marks < 60 and marks >= 50 ):<br>
-    print("Hey",nam1,"your grade is C")
+elif (marks < 60 and marks >= 50 ):
+    print("Hey",nam1,"your grade is C")<br>
     
 if (marks < 50 and marks >= 33 ):
     print("Hey",nam1,"your grade is D")<br>
