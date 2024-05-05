@@ -22,7 +22,8 @@ if (marks < 50 and marks >= 33 ):<br>
     print("Hey",nam1,"your grade is D")<br>
 
 elif (marks < 32 and marks >= 0 ):<br>
-    print("hey",nam1,"you're failed ")   <br>
+    print("hey",nam1,"you're failed ")   <br
+   <br>                                        
 else :
     print("Accoding your mark-sheet")
 
