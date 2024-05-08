@@ -1,8 +1,8 @@
 # Hello wrold this is mezbah khan form backend developer 
 # In This reposotiry we are going to build our porjects with pyrhon language and data framework like tensorflow 
 # lets get started with our first project and that is the simple program of printing grades by mark of results  
-                                        project set --> 1 
-                        
+                                        Project set --> 1 
+                                        
 nam1 = str (input("Enter your name : ")) <br>
 marks = int(input('Enter your marks : '))
 
@@ -29,7 +29,7 @@ else :
 
 # lets create a simple system with bainary and floating mode # 
 # we are going to use the besic fundamentals like if / elif statements #
-                      project no --> 2 
+                      Project no --> 2 
 
 mezbah_cxc=   int(input("Enter your Deciaml number as required in 1-00  :"))<br>
 isitak_cxc=float(input("Enter your floating number as reqquired in 1-100 :"))
@@ -149,8 +149,260 @@ school.add_student(student1) <br>
 school.add_student(student2) <br>
 school.welcome_students() <br>
 
+# Hello wrold this is mezbah khan form backendd develoepr 
+# lets create a projects with  file input and output 
+# lets buildup this is code with python language 
 
+with open ("demo.txt",'+a') as file:
+     
+     # Lets create an input option for recieved user data 
+     # we've to save daata in file demo.txt and run for databased 
+     
+ with open("demo.txt",'a+') as file:
+     
+     new_data= str(input("Enter your Name : "))
+     file.write(new_data)
+     file.write('\n')
+     
+     new_data = int(input("Enter your age : "))
+     file.write(str(new_data))
+     file.write('\n')
+     
+     new_data = float(input("Enter your height : "))
+     file.write(str(new_data))
+     file.write('\n')
+     
+     new_data = str(input('Enter your gender: '))
+     file.write(new_data)
+     file.write('\n')
+     
+     new_data = int(input("Enter your NID number: "))
+     file.write(str(new_data))
+     file.write('\n')
+       
+     new_data = int(input("Enter your phone number: "))
+     file.write(str(new_data))
+     file.write('\n')
+     
+     new_data = str(input("Enter your email: "))
+     file.write(new_data)
+     file.write('\n')
+     
+     # we have done it 
+     # lets check the code
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
 
     
 
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
