@@ -1,0 +1,61 @@
+              Hello wrold this is mezbah khan form backend developer 
+   Lets create an project with python conditional statements and build printing gredes function
+
+mezbah_cxc=   int(input("Enter your decimal  number as required in 1-00  :"))
+isitak_cxc=float(input("Enter your floating number as reqquired in 1-100 :"))
+
+if (mezbah_cxc <=100 and mezbah_cxc >=80):
+    print("your mezbah is exxclient ")
+    
+elif (mezbah_cxc <= 79 and mezbah_cxc >= 60 ):
+    print("You mark is good but need more improvement")
+
+elif(mezbah_cxc <= 34 and mezbah_cxc >= 59):
+    print("You mark is consistently poor --> need huge improvement")
+
+elif( mezbah_cxc<= 33 and mezbah_cxc>= 0):
+    print("You are fail in thiss exam . so try again leter ")
+
+if (isitak_cxc <= 100.00 and isitak_cxc >= 80.00):
+    print("Your mark is eexclient and amazzing ,istiak vai ")
+
+elif (isitak_cxc <= 79.00 and  isitak_cxc >= 60.00):
+    print("You mark is good but need more improvement istiaak vai ")
+
+elif(isitak_cxc <= 34.00 and isitak_cxc>= 59.00):
+    print("Your mark is conssistentlyy poor istiak vaai , so you need improvement")
+
+elif (isitak_cxc<=33.00 and isitak_cxc>=0.0 ):
+    print("Your fail istiak vaai , try again leter ")
+
+                         Project no --> 2 
+   lets create a simple system with bainary and floating mode 
+   we are going to use the besic fundamentals like if / elif statements 
+
+mezbah_cxc=   int(input("Enter your Deciaml number as required in 1-00  :"))
+isitak_cxc=float(input("Enter your floating number as reqquired in 1-100 :"))
+
+if (mezbah_cxc <=100 and mezbah_cxc >=80):
+    print("system is started in bainary mode")
+    
+elif (isitak_cxc <= 100.00 and isitak_cxc >= 80.00):
+    print("System is started in floating mode")
+    
+if (mezbah_cxc <= 79 and mezbah_cxc >= 60 ):
+    print("System is working properly in bainary mode")
+    
+elif (isitak_cxc <= 79.00 and  isitak_cxc >= 60.00):
+    print("System is working properly in floating mode")
+
+if(mezbah_cxc <= 34 and mezbah_cxc >= 59):
+    print("System is not working slowly in bainary mode")
+    
+elif(isitak_cxc <= 34.00 and isitak_cxc>= 59.00):
+    print("System is not working slowly in floating mode")
+
+if( mezbah_cxc<= 33 and mezbah_cxc>= 0):
+    print("System is stoped in bainary mode")
+
+elif (isitak_cxc<=33.00 and isitak_cxc>=0.0 ):
+    print("System is stoped in floating mode")
+
