@@ -1,0 +1,42 @@
+
+ Hello wrold this is mezbah khan form backendd developer.
+ lets create a projects with  file input and output.
+ lets buildup this is code with python language.
+
+with open ("demo.txt",'+a') as file:
+
+      Lets create an input option for recieved user data 
+      we've to save daata in file demo.txt and run for databased .....
+
+ with open("demo.txt",'a+') as file:
+
+     new_data= str(input("Enter your Name : "))
+     file.write(new_data)
+     file.write('\n')
+
+     new_data = int(input("Enter your age : "))
+     file.write(str(new_data))
+     file.write('\n')
+
+     new_data = float(input("Enter your height : "))
+     file.write(str(new_data))
+     file.write('\n')
+
+     new_data = str(input('Enter your gender: '))
+     file.write(new_data)
+     file.write('\n')
+
+     new_data = int(input("Enter your NID number: "))
+     file.write(str(new_data))
+     file.write('\n')
+
+     new_data = int(input("Enter your phone number: "))
+     file.write(str(new_data))
+     file.write('\n')
+
+
+     new_data = str(input("Enter your email: "))
+     file.write(new_data)
+     file.write('\n')
+
+      we have done it 
