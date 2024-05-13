@@ -59,3 +59,18 @@ if( mezbah_cxc<= 33 and mezbah_cxc>= 0):
 elif (isitak_cxc<=33.00 and isitak_cxc>=0.0 ):
     print("System is stoped in floating mode")
 
+           # project set --> 3
+mezbah_loop= int(input("Enter your decimal number as required: "))
+
+if (mezbah_loop <= 100 and mezbah_loop >= 80):
+    print("the code is runniing as expections")
+elif (mezbah_loop <= 79 and mezbah_loop >=60 ):
+    print ('The code is runimnng as expections')
+
+if (mezbah_loop <=39 and mezbah_loop >= 59):
+    print("your system csnt defineed yoour decimal codes")
+elif (mezbah_loop <= 0 and mezbah_loop >= 38):
+    print ("the code is unavale too understand and functionality")
+
+
+
