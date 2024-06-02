@@ -1,0 +1,37 @@
+# hello wrold this is mezbah kahn form backemd develoepr 
+# Lets crate a pratice set with python laibary and  database 
+# Lets do this with proper codes 
+
+import numpy as np
+
+class Mezbah:
+    def __init__(self, array, loop):
+        self.array = array
+        self.loop = loop
+
+    @staticmethod
+    def hello():
+        print("hello world")
+
+    def dta_array(self):
+        return self.array
+    
+    def dta_loop(self):
+        return self.loop
+
+
+recal_mz = Mezbah(None, None)
+recal_mz.hello()
+
+list01 = input('Enter your data (comma-separated): ')
+str_data = np.array([int(i) for i in list01.split(',')])
+
+
+recal_mz.array = str_data
+recal_mz.loop = str_data.size 
+
+print(recal_mz.dta_array())
+print(recal_mz.dta_loop())
+
+
+
