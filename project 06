@@ -1,0 +1,18 @@
+# Hello wrold this is mezbah khan form backend develoepr 
+# lets create a mini projects and build-up our Repo codes 
+# lets do this with proper codes of python and lab ( numpy)
+
+class Mezbah:
+    def __init__(self):
+        self.starting_idx = int(input('Enter your starting index: '))
+        self.stopping_idx = int(input('Enter your stopping index: '))
+    
+    def fun_range(self):
+        for val in range(self.starting_idx, self.stopping_idx + 1): 
+            binary_idx = bin(val)[2:]  # Convert to binary and remove '0b' prefix
+            print(binary_idx)
+
+# Create an instance of Mezbah
+mezbah_instance = Mezbah()
+# Call the fun_range() method
+mezbah_instance.fun_range()
