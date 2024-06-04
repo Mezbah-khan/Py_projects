@@ -1,0 +1,55 @@
+# Hello wrold this is mezbah kaan form backend develeper 
+# lets build-up a project like comparing values with python and laibaies (numpy,pandas)
+# Lets do this with proper codes and mindset 
+
+
+ ## codes 
+ def compare_val (a,b):
+    if b > a :
+        return True
+    else: 
+        return False()
+# lets create the maths 
+a = 20 
+b = 40 
+result = compare_val(a,b) 
+print(result)
+
+   # This is basic fundamental code of python 
+   # Lets modify this code 
+
+class compare: 
+    def __init__(self, frist , secend) : 
+        self. frist = frist 
+        self. secend = secend
+        
+        
+    @staticmethod
+    def warning ():
+        print('Only integer number is Required--> ')
+        
+    def compare_val (self):
+        if self.frist > self.secend : 
+            print('The frist value is greater than the second value')
+            
+        elif self.secend > self.frist: 
+            print('The second value is greater than the frist value')
+            
+        elif self.frist == self.secend :
+            print("Both value is Equal")
+            
+        else : 
+            return ''' Enter a bainary value  '''
+        
+file_input01 = input('Enter your frist value : ')
+file_input02 = input('Enter your secend value : ')
+
+system_check = compare(file_input01,file_input02)
+system_check.warning()
+system_check.compare_val()
+ 
+ 
+    # the projects is sussesfully created 
+    
+    
+ 
