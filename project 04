@@ -1,0 +1,31 @@
+# Helllo wrold this is mezbah khan from backend developer 
+# Lets pratice on OOP in python with class and object models 
+# lets do this proper example of codes 
+
+class phone:
+    def __init__(self, brand, cost):
+        self.brand = brand
+        self.cost = cost
+        
+    def phn_info(self):
+        print("The phone brand is:", self.brand)
+        print("The phone cost is:", self.cost)
+        
+phn_check = phone("iPhone", 150000)
+phn_check.phn_info()
+
+class mobile(phone):
+    def __init__(self, brand, cost, model, version):
+        super().__init__(brand, cost)
+        self.model = model
+        self.version = version
+        
+    def phn_details(self):
+        print("The model of this phone is:", self.model)
+        print("The version of this phone is:", self.version)
+        
+phn_checker = mobile("iPhone", 150000, "12 Pro Max", "14.0")
+phn_checker.phn_info()
+phn_checker.phn_details()
+ 
+ 
