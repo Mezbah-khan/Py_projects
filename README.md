@@ -1,5 +1,5 @@
 # Python Projects
-
+[![Contributions welcome](https://shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](CONTRIBUTING.md)<br>
 **A collection of your Python projects!**
 Description:
 
@@ -37,9 +37,6 @@ Links to External Resources: Include links to relevant tutorials, documentation,
 Project Status: Indicate whether a project is actively maintained, under development, or archived.
 Contribution Guidelines Badge (Optional): You can use a badge service like shields.io to create a visual badge for your contribution guidelines.
 Example:
-
-[![Contributions welcome](https://shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](CONTRIBUTING.md)
-Remember to replace the bracketed text with the appropriate information for your specific repository.
 
 
 
